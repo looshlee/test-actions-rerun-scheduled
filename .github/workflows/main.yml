@@ -19,5 +19,5 @@ jobs:
     steps:
     - name: fail so we can try re-running
       run: |
-        echo let's exit non-zero
+        echo "let's exit non-zero"
         ls /no/such/path
